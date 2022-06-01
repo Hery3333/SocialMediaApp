@@ -6,7 +6,7 @@ import Share from '../../img/share.png'
 import Heart from '../../img/like.png'
 import NotLike from '../../img/notlike.png'
 
-const Post = ({data}) => {
+const Post = ({data,id}) => {
   return (
     <div className='Post'>
       <img src={data.img}/>
